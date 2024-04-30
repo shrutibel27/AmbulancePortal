@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tryproject/Pages/IntroPage.dart';
+import 'package:tryproject/Account_select_Pages/IntroPage.dart';
 
 
 void main() {

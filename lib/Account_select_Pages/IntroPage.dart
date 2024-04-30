@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tryproject/Pages/UserType.dart';
+import 'package:tryproject/Account_select_Pages/UserType.dart';
 
 class IntroPage extends StatelessWidget {
   const IntroPage({Key? key}) : super(key: key);
@@ -157,7 +157,7 @@ class _OnboardingPageState extends State<OnboardingPagePresenter> {
                                 fontSize: 16, fontWeight: FontWeight.bold)),
                         onPressed: () {
                           Navigator.of(context).pushReplacement(
-                            MaterialPageRoute(builder: (context) => UserType()),
+                            MaterialPageRoute(builder: (context) => UserTypePage()),
                           );
                           widget.onSkip?.call();
                         },
