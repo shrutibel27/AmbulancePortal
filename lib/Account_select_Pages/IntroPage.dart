@@ -10,14 +10,14 @@ class IntroPage extends StatelessWidget {
       body: OnboardingPagePresenter(pages: [
         OnboardingPageModel(
           title: 'Emergency Patrol',
-          description: 'Our app Provides a platform for quick response services from police,ambulance, and firefighters.',
+          description: 'Our app Provides a platform for quick response services from Hospital,ambulance.',
           imageUrl: 'assest/icon/fire-truck.png',
-          bgColor: Colors.indigo,
+          bgColor: Colors.lightBlueAccent,
         ),
         OnboardingPageModel(
-          title: 'Connect with your friends.',
-          description: 'Connect with your friends anytime anywhere.',
-          imageUrl: 'https://i.ibb.co/LvmZypG/storefront-illustration-2.png',
+          title: 'Connect with your Doctor.',
+          description:" ",
+          imageUrl: 'assest/icon/doctor.png',
           bgColor: const Color(0xff1eb090),
         ),
         OnboardingPageModel(
