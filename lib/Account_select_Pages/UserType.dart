@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:tryproject/Driver/DDashboard.dart';
 import 'DriverSignInPage.dart';
 import 'HospitalSignInPage.dart';
 import 'UserSignInPage.dart';
@@ -22,7 +23,8 @@ class UserTypePage extends StatelessWidget {
             SizedBox(height: 20.0),
             _buildAccountTypeButton(context, 'User', UserSignInPage()),
             _buildAccountTypeButton(context, 'Hospital', HospitalSignInPage()),
-            _buildAccountTypeButton(context, 'Driver', DriverSignInPage()),
+            // _buildAccountTypeButton(context, 'Driver', DriverSignInPage()),
+            _buildAccountTypeButton(context, 'Driver', DriverPage()),
           ],
         ),
       ),

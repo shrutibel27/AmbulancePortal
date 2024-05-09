@@ -79,6 +79,7 @@ class _UserDashboardState extends State<UserDashboard> {
                           Navigator.push(
                             context,
                             MaterialPageRoute(builder: (context) => LocationPage()),);
+                            // MaterialPageRoute(builder: (context) => LocationPage()),);
                         }
                       },
                       child: Text('Next'),
