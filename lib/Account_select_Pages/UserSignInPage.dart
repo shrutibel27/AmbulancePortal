@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tryproject/User/UDashboard.dart';
+import 'package:tryproject/User/Location.dart';
 class UserSignInPage extends StatelessWidget {
   const UserSignInPage({Key? key}) : super(key: key);
 
@@ -210,7 +211,8 @@ class _ContinueWithoutAccountButton extends StatelessWidget {
         // Navigate to the Udashboard.dart page
         Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => UserDashboard()),// Replace Udashboard with your actual page name
+            // MaterialPageRoute(builder: (context) => UserDashboard()),// Replace Udashboard with your actual page name
+            MaterialPageRoute(builder: (context) => LocationPage()),
         );
       },
       child: Text("Continue without account"),

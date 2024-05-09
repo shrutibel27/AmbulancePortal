@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:tryproject/User/Location.dart';
 
 class UserDashboard extends StatefulWidget {
   @override
@@ -75,7 +76,9 @@ class _UserDashboardState extends State<UserDashboard> {
                     ElevatedButton(
                       onPressed: () {
                         if (_formKey.currentState?.validate() ?? false) {
-                          Navigator.pushNamed(context, '/Location');
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => LocationPage()),);
                         }
                       },
                       child: Text('Next'),
